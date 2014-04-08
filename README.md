@@ -2,6 +2,12 @@
 
 a set of useful numbers defined as constants
 
+# versions
+
+version 1.* is the friendliest but global. version 2.* is still global but
+assumes you know what you're doing. version 3.* is the best in that it is
+namespaced.
+
 # Installation
 
 Install the [Packagist archive](https://packagist.org/packages/henderjon/weights_and_measures)
@@ -12,7 +18,7 @@ does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
 ```
 {
 	"require" : {
-		"henderjon/weights_and_measures": "1.*"
+		"henderjon/weights_and_measures": "3.*"
 	}
 }
 ```
