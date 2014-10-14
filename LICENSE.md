@@ -1,4 +1,4 @@
-(This is a BSD-3-Clause License)
+[![License](https://poser.pugx.org/henderjon/weights_and_measures/license.svg)](https://packagist.org/packages/henderjon/weights_and_measures)
 
 Copyright (c) 2012, Jon Henderson (@henderjon) All rights reserved.
 
