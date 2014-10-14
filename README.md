@@ -1,6 +1,6 @@
 # henderjon/weights_and_measures
 
-a useful set of weights and measures
+a useful set of weights and measures. Note that the PHP namespace is `WM`.
 
 Peruse the tests or, if present, the examples directory to see usage.
 
