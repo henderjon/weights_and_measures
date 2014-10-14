@@ -2,7 +2,7 @@
 
 namespace WM;
 
-class Size {
+class Size implements SizeInterface{
 
 	function k($num = 1){
 		return ONE_K * $num;

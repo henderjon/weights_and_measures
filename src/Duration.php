@@ -2,7 +2,7 @@
 
 namespace WM;
 
-class Duration {
+class Duration implements DurationInterface {
 
 	function second($num = 1){
 		return ONE_SECOND * $num;
