@@ -27,10 +27,19 @@ const ONE_GB = 1073741824;
 /**
  * formats
  */
-const MYSQL_FORMAT_TIME     = "H:i:s";
-const MYSQL_FORMAT_DATE     = "Y-m-d";
-const MYSQL_FORMAT_DATETIME = "Y-m-d H:i:s";
-const ISO8601_YEARWEEK      = "oW";
+const MYSQL_FORMAT_TIME        = "H:i:s";
+const MYSQL_FORMAT_DATE        = "Y-m-d";
+const MYSQL_FORMAT_DATETIME    = "Y-m-d H:i:s";
+const ISO_YEARWEEK             = "oW";
+const ISO_YEARWEEKDAY          = "oWN";
+const ISO8601_YEARWEEK         = "o-\WW";
+const ISO8601_YEARWEEK_ALT1    = "o\WW";
+const ISO8601_YEARWEEKDAY      = "o-\WW-N";
+const ISO8601_YEARWEEKDAY_ALT1 = "o\WWN";
+const DATE_FILENAME            = "Ymd";
+const TIME_FILENAME            = "His";
+const DATETIME_FILENAME        = "Ymd\THis";
+const DATETIME_FILENAMEZ       = "Ymd\THisO";
 
 /**
  * http://us3.php.net/manual/en/class.datetime.php#datetime.constants.types
