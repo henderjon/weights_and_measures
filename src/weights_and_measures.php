@@ -30,6 +30,7 @@ const ONE_GB = 1073741824;
 const MYSQL_FORMAT_TIME        = "H:i:s";
 const MYSQL_FORMAT_DATE        = "Y-m-d";
 const MYSQL_FORMAT_DATETIME    = "Y-m-d H:i:s";
+const UNIX_TIMESTAMP           = "U";
 const ISO_YEARWEEK             = "oW";
 const ISO_YEARWEEKDAY          = "oWN";
 const ISO8601_YEARWEEK         = "o-\WW";
