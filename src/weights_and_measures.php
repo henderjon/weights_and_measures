@@ -59,6 +59,25 @@ const DATETIME_FILENAMEZ       = "Ymd\THisO";
  *
  */
 
-
+/**
+ * MySQL Int & Date Byte Requirements and min/max values
+ * 
+ * Signed TINYINT     1 -128                 127
+ * Unsigned TINYINT   1 0                    255
+ * Signed SMALLINT    2 -32768               32767
+ * Unsigned SMALLINT  2 0                    65535
+ * Signed MEDIUMINT   3 -8388608             8388607
+ * Unsigned MEDIUMINT 3 0                    16777215
+ * Signed INT         4 -2147483648          2147483647
+ * Unsigned INT       4 0                    4294967295
+ * Signed BIGINT      8 -9223372036854775808 9223372036854775807
+ * Unsigned BIGINT    8 0                    18446744073709551615
+ * DATE               3 
+ * TIME               3 
+ * DATETIME           8
+ * TIMESTAMP          4
+ * YEAR               1
+ *
+ */
 
 
